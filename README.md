@@ -1,0 +1,2 @@
+# easygolang
+study golang demo
