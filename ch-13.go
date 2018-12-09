@@ -29,19 +29,19 @@ func main() {
 	fmt.Println(strings.TrimRight(s, "!"))            //修剪字符串右边
 	fmt.Println(strings.TrimSpace("    " + s + "  ")) //修剪字符串左右空格
 	fmt.Println(strings.Split(s, " "))                //将字符串切割
-	fmt.Println(strings.SplitN(s,"",2))    //对字符串进行切割，第三个参数用来控制总切割
+	fmt.Println(strings.SplitN(s, "", 2))             //对字符串进行切割，第三个参数用来控制总切割
 	var strSli = strings.Fields(s)                    //将字符串按照空白就行切割成字符串切片
 	fmt.Println(strSli)
 	fmt.Println(strings.Join(strSli, " "))         //将字符串切片拼接成一个字符串
 	fmt.Println(strings.FieldsFunc(s, fieldsFunc)) //使用FieldsFunc 函数来确定分割符
-	fmt.Println(strings.SplitAfter(s,"o"))   //要切割字符都后一个字符开始切割
-	fmt.Println(strings.SplitAfterN(s,"l",-1)) //要切割字符都后一个字符开始切割总数为第三个参数都值-1表示回所有的子字符串组成的切
-	fmt.Println(strings.IndexFunc(s,indexFunc))		//传入满足函数
-	fmt.Println(strings.IndexByte(s,'h'))
+	fmt.Println(strings.SplitAfter(s, "o"))        //要切割字符都后一个字符开始切割
+	fmt.Println(strings.SplitAfterN(s, "l", -1))   //要切割字符都后一个字符开始切割总数为第三个参数都值-1表示回所有的子字符串组成的切
+	fmt.Println(strings.IndexFunc(s, indexFunc))   //传入满足函数
+	fmt.Println(strings.IndexByte(s, 'h'))		//字符串第一次出现的位置，不存在则返回-1。
 }
 func fieldsFunc(r rune) bool {
 	return r == rune('o')
 }
-func indexFunc(r rune)bool  {
+func indexFunc(r rune) bool {
 	return r == rune(' ')
 }

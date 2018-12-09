@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e82de71-399a-40e4-b6b7-f851e8b6e94a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-10.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-11.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-12.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-13.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-3.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-5.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-6.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-7.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-8.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch-9.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch-13.go" beforeDir="false" afterPath="$PROJECT_DIR$/ch-13.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,17 +16,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch-13.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Go/src/strings/strings_decl.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="342">
+              <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+              <folding>
+                <element signature="e#14#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,19 +85,6 @@
               <item name="easygolang" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Go SDK 1.11" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="easygolang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.11" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easygolang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go SDK 1.11" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,12 +174,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49898168" visible="true" weight="0.22788204" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49898168" visible="true" weight="0.22788204" />
       <window_info id="Structure" order="1" sideWeight="0.50101835" side_tool="true" weight="0.22788204" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3045326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,13 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Go/src/strings/strings_decl.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Go/src/strings/strings.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -359,10 +320,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Go/src/strings/strings_decl.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch-13.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="342">
+          <caret line="39" column="71" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
+          <folding>
+            <element signature="e#14#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
