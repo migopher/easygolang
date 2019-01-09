@@ -1,2 +1,2 @@
-# easygolang(待续)
+# easygolang(be continued)
 study golang demo
