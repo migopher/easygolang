@@ -14,7 +14,8 @@ func main() {
 }
 
 func update(a *int)  {
-	var b *int
-	b=a  //
+	var b int
+	b=(*a)+1  //
+	(*a)+=1
 	fmt.Println(b)
 }
