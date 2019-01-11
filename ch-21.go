@@ -5,6 +5,9 @@ import (
 	"strconv"
 )
 
+/**
+选择语句 switch case
+ */
 func main() {
 	a := 30
 	switch a {
