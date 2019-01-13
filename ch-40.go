@@ -13,7 +13,7 @@ defer会在return之前执行
 func main()  {
 	defer func() {  //必须提前执行defer，好捕捉错误
 		if info := recover(); info != nil { //recover()用来判断是否有宕机错误
-			fmt.Println("触发了宕机", info) //如果存在错误打印错误信息
+			fmt.Println("触发了宕机", info) //如果存在错误打印错误信息，并结束程序
 		} else {
 			fmt.Println("程序正常退出")     //如果无错运行正常
 		}
