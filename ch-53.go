@@ -16,7 +16,7 @@ type File struct {
 
 func main() {
 	file:=NewFile(10,"./1.txt")
-	fmt.Println(unsafe.Sizeof(file)) //unsafe.Sizeof用于知道结构体占用的内存地址
+	fmt.Println(unsafe.Sizeof(file)) //unsafe.Sizeof用于知道结构体占用的内存大小
 }
 
 func NewFile(fd int,name string) *File {
